@@ -1,0 +1,11 @@
+version: "0.0.5"
+license: "MIT"
+description: "Library for connecting to i2c devices"
+url: https://github.com/japersik/esp_i2c_device
+files:
+  exclude:
+    - '**/cmake-build-debug/**/*'
+    - '**/cmake-build-debug'
+dependencies:
+  idf:
+    version: ">=4.1.0"
