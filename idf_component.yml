@@ -1,6 +1,7 @@
-version: "0.0.5"
+version: "0.0.6"
 license: "MIT"
 description: "Library for connecting to i2c devices"
+repository: https://github.com/japersik/esp_i2c_device
 url: https://github.com/japersik/esp_i2c_device
 files:
   exclude:
