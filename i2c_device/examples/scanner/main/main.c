@@ -2,6 +2,7 @@
 
 #include "i2c_device.h"
 #include <esp_log.h>
+#include <stdio.h.h>
 
 static const char *TAG = "example_i2c_scanner";
 

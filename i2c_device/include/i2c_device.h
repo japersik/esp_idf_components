@@ -1,10 +1,9 @@
-#ifndef JAPERSIK_ESP_I2C_DEVICE_H
-#define JAPERSIK_ESP_I2C_DEVICE_H
+#ifndef JAPERSIK_ESP_COMPONENTS_I2C_DEVICE_H
+#define JAPERSIK_ESP_COMPONENTS_I2C_DEVICE_H
 #include "driver/i2c.h"
 
-/**
- *  I2C slave device address
- */
+
+//   I2C slave device address
 typedef uint16_t i2c_address_t;
 
 typedef struct {
@@ -23,4 +22,4 @@ esp_err_t i2c_device_receive_byte(const i2c_device_info_t * i2c_device_info, uin
 esp_err_t i2c_device_send_bytes(const i2c_device_info_t * i2c_device_info, const uint8_t * data_pkg, size_t len);
 esp_err_t i2c_device_receive_bytes(const i2c_device_info_t * i2c_device_info, uint8_t * data_pkg, size_t len);
 
-#endif //JAPERSIK_ESP_I2C_DEVICE_H
+#endif //JAPERSIK_ESP_COMPONENTS_I2C_DEVICE_H
